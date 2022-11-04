@@ -1,0 +1,12 @@
+@import '../../../styles.scss';
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form__body {
+    @include article
+}

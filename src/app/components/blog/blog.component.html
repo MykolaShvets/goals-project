@@ -1,0 +1,10 @@
+<section class="blog">
+    <article class="blog__post" *ngFor="let post of posts">
+        <h2 class="blog__post_title">{{post.id}}. {{post.title}}</h2>
+        <p class="blog__post_body">{{post.body}}</p>
+        <button mat-button color="primary" mat-raised-button #tooltip="matTooltip"
+        matTooltip="Info about the action"
+        matTooltipPosition="below"
+        matTooltipHideDelay="1000">More...</button>
+    </article>
+</section>
